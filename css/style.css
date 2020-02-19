@@ -70,6 +70,9 @@ padding-top:2px;
   }
 
   .blocco3{
+    display: inline-block;
+  padding-left:200px;
+  padding-top:50px;
     height: 150px;
     width: 100%;
     background-color:#f9f9f9;
@@ -174,7 +177,7 @@ float: left;
 .testo{
 
   margin-top: 200px;
-  margin-left: 10px;
+  margin-left: 200px;
   height: 500px;
   width: 600px;
   float: left;
