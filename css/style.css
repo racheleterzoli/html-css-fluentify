@@ -3,12 +3,12 @@
 } */
 .starter{
 
-  height: 400px;
+  height: 600px;
   width: 100%;
   background-image: url(../immagini/sfondo1.jpg);
-  background-size: cover;
+background-position: left;
   background-repeat: no-repeat;
-
+background-size: contain;
 }
 ul{
   list-style: none;
@@ -41,6 +41,8 @@ margin-top:-45px;
   margin-top: 25px;
 }
 .sotto{
+  margin-top: -100px;
+padding-top:2px;
   height: 150px;
   width: 100%;
   background-color:#f9f9f9;
@@ -164,13 +166,14 @@ width: 40px;
 color: #999;
 }
 #scalata{
-  float: left;
+padding-top: 200px;
+float: left;
   margin-top: 50px;
   margin-left: 140px;
 }
 .testo{
 
-  margin-top: 30px;
+  margin-top: 200px;
   margin-left: 10px;
   height: 500px;
   width: 600px;
