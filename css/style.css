@@ -44,8 +44,11 @@ margin-top:-45px;
   height: 150px;
   width: 100%;
   background-color:#f9f9f9;
+  text-align: center;
 }
 .blocco1{
+  display: inline-block;
+  float: left;
   height: 500px;
   width: 100%;
   background-color:white;
@@ -58,6 +61,12 @@ margin-top:-45px;
   background-color:white;
   }
 
+  .chiusura-float::after {
+    display:table;
+    content:"";
+    clear:both;
+  }
+
   .blocco3{
     height: 150px;
     width: 100%;
@@ -67,6 +76,7 @@ margin-top:-45px;
   height: 450px;
   width: 100%;
   background-color:#0d325a;
+  display: inline-block;
   }
   .blocco5{
     height: 500px;
@@ -100,3 +110,110 @@ margin-top:-45px;
         width: 100%;
         background-color:#483D8B;
         }
+#pargrigio{
+  padding-bottom:20px;
+  color:#999;
+}
+#parbianco{
+  padding-top:25px;
+  margin-bottom: -30px;
+}
+.blocco1 div{
+  float: left;
+  display: inline-block;
+}
+.dimensionimg{
+  height:170px;
+width: 120px;}
+
+.titverde{
+
+  color:#7fb802;
+}
+.grey{
+  color:#999;
+}
+.testa{
+  font-size: 15px;
+  margin-left: 100px;
+  text-align: center;
+  float: left;
+  height:300px;
+  width: 300px;
+}
+.pc{
+    font-size: 15px;
+  margin-top: 50px;
+  margin-left: 100px;
+  float: left;
+    text-align: center;
+  height:300px;
+  width: 300px;
+}
+.quaderno{
+    font-size: 15px;
+  margin-left: 100px;
+    text-align: center;
+  float: left;
+  height:300px;
+  width: 300px;
+}
+hr{
+
+width: 40px;
+color: #999;
+}
+#scalata{
+  float: left;
+  margin-top: 50px;
+  margin-left: 140px;
+}
+.testo{
+
+  margin-top: 30px;
+  margin-left: 10px;
+  height: 500px;
+  width: 600px;
+  float: left;
+}
+a:link, a:visited {
+  font-size: 18px;
+    text-decoration: underline;
+    color: #98c8f8;
+    background-color: transparent;
+}
+.foto img{
+margin-top: -150px;
+  width: 400px;
+  margin-right: 200px;
+
+}
+.foto{
+  display:inline-block;
+
+float: right;
+
+}
+#bianco{
+  color:white;
+  font-size: 50px;
+}
+#orange{
+  color:orange;
+  font-size: 50px;
+}
+.grigi{
+  color:#999;
+}
+.lezioni{
+  padding:30px;
+  height: 200px;
+  width: 400px;
+}
+.titolounito{
+  width:1000px;
+}
+.imgimg{
+  height: 200px;
+  width: 50px
+}
