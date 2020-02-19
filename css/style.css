@@ -1,0 +1,102 @@
+/* body{
+  font-family: "museo san"
+} */
+.starter{
+
+  height: 400px;
+  width: 100%;
+  background-image: url(../immagini/sfondo1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+ul{
+  list-style: none;
+  color:white;
+}
+.sopra{
+  height: 100px;
+  width: 100%;
+  background-color:#0d325a;
+    text-decoration: none;
+  color:white;
+
+}
+.barra{
+margin-top:-45px;
+  display: block;
+  color:white;
+}
+.barra a{
+  float: left;
+    text-decoration: none;
+      color:white;
+      margin-left: 20px;
+      margin-top: 40px;
+}
+#immagine{
+  float:left;
+  margin-left: 150px;
+  margin-right: 55px;
+  margin-top: 25px;
+}
+.sotto{
+  height: 150px;
+  width: 100%;
+  background-color:#f9f9f9;
+}
+.blocco1{
+  height: 500px;
+  width: 100%;
+  background-color:white;
+  border-bottom: 2px solid #f9f9f9;
+}
+
+.blocco2{
+  height: 450px;
+  width: 100%;
+  background-color:white;
+  }
+
+  .blocco3{
+    height: 150px;
+    width: 100%;
+    background-color:#f9f9f9;
+}
+.blocco4{
+  height: 450px;
+  width: 100%;
+  background-color:#0d325a;
+  }
+  .blocco5{
+    height: 500px;
+    width: 100%;
+    background-color:white;
+    border-bottom: 2px solid #f9f9f9;
+  }
+  .blocco6{
+    height: 500px;
+    width: 100%;
+    background-color:white;
+
+  }
+  .blocco7{
+    height: 450px;
+    width: 100%;
+    background-color:#0d325a;
+    }
+    .blocco8{
+      height: 450px;
+      width: 100%;
+      background-color:white;
+      }
+      .blocco9{
+        height: 150px;
+        width: 100%;
+        background-color:#0d325a;
+      }
+      .blocco10{
+        height: 450px;
+        width: 100%;
+        background-color:#483D8B;
+        }
